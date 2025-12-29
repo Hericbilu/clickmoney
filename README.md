@@ -3,7 +3,7 @@
 🚀 **ClickMoney** is an idle game / financial simulator developed **100% in pure JavaScript**, focused on **business logic, state management, market simulation, and front-end architecture without frameworks**.
 
 👉 **Live Demo (GitHub Pages):**
-🔗 [https://hericbilu.github.io/clickmoney/](https://hericbilu.github.io/clickmoney/)
+🔗 ( https://hericperes.github.io/clickmoney/ )
 
 ---
 
