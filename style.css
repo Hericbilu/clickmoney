@@ -1,0 +1,51 @@
+:root{
+    --bg:#0f1115;
+    --card:#15181d;
+    --accent:#f0c419;
+    --muted:#9aa3b2;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:linear-gradient(180deg,#0b0c0f 0%, #0f1115 100%);
+    color:#e6eef6;
+    font-family:Inter, system-ui, Arial;
+    -webkit-font-smoothing:antialiased;
+  }
+  .container{
+    max-width:1100px;
+    margin:18px auto;
+    padding:18px;
+  }
+  .topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:12px;
+    margin-bottom:16px;
+  }
+  .brand{font-size:22px;font-weight:700;color:var(--accent)}
+  .subtitle{font-size:12px;color:var(--muted)}
+  .right{display:flex;gap:18px;align-items:center;font-size:14px}
+  .mainGrid{display:grid;grid-template-columns:1fr 360px;gap:16px}
+  .center{display:flex;flex-direction:column;align-items:center;gap:8px;margin:18px 0}
+  .bigButton{
+    width:220px;height:220px;border-radius:50%;background:linear-gradient(180deg,#ffd54a,#f0c419);border:none;font-size:80px;color:#000;font-weight:700;box-shadow:0 8px 30px rgba(240,196,25,0.18);cursor:pointer;transition:transform .08s;
+  }
+  .bigButton:active{transform:scale(.95)}
+  .clickInfo{color:var(--muted)}
+  .quickActions{display:flex;gap:8px;margin-top:8px}
+  .quickActions button{background:transparent;border:1px solid #2a2f36;padding:6px 10px;border-radius:8px;color:var(--muted);cursor:pointer}
+  .tabs{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+  .tab{background:transparent;border:1px solid transparent;padding:8px 12px;border-radius:8px;cursor:pointer;color:#cfe6ff}
+  .tab.active{background:rgba(255,255,255,0.03);border-color:#26313a}
+  .content{background:var(--card);padding:16px;border-radius:10px;min-height:320px}
+  .row{display:flex;gap:12px;align-items:center}
+  .card{background:#0f1318;border-radius:8px;padding:12px;border:1px solid rgba(255,255,255,0.03)}
+  .table{width:100%;border-collapse:collapse}
+  .table th,.table td{padding:8px;text-align:left;border-bottom:1px solid rgba(255,255,255,0.03);font-size:13px}
+  .small{font-size:12px;color:var(--muted)}
+  .footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
+  .btn{background:var(--accent);border:none;padding:8px 12px;border-radius:8px;color:#000;cursor:pointer}
+  .badge{background:#22303a;padding:4px 8px;border-radius:6px;color:var(--muted);font-size:12px}
+  

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ClickMoney — Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="topbar">
+      <div class="left">
+        <div class="brand">ClickMoney</div>
+        <div class="subtitle">Clique, invista, torne-se magnata</div>
+      </div>
+      <div class="right">
+        <div>💰 <strong id="saldoDisplay">0</strong></div>
+        <div>📈 Renda/h: <strong id="rendaDisplay">0</strong></div>
+        <div>⏱ Próx tick: <strong id="tickTimer">--:--</strong></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="center">
+        <button id="clickBtn" class="bigButton">$</button>
+        <div class="clickInfo">+<span id="clickValue">1</span> por clique</div>
+        <div class="quickActions">
+          <button onclick="doPrestige()">Prestígio</button>
+          <button onclick="resetSave(true)">Reset (limpar)</button>
+          <button onclick="forceTick()">Forçar Tick</button>
+        </div>
+      </section>
+
+      <nav class="tabs">
+        <button class="tab active" data-tab="market">Bolsa</button>
+        <button class="tab" data-tab="properties">Propriedades</button>
+        <button class="tab" data-tab="cars">Carros</button>
+        <button class="tab" data-tab="crypto">Criptos</button>
+        <button class="tab" data-tab="mining">Mineração</button>
+        <button class="tab" data-tab="shop">Loja</button>
+        <button class="tab" data-tab="achievements">Conquistas</button>
+        <button class="tab" data-tab="leaderboard">Leaderboard</button>
+        <button class="tab" data-tab="settings">Config</button>
+      </nav>
+
+      <section id="content" class="content">
+        <!-- Conteúdo dinâmico injetado por script.js -->
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>Local: pt-BR • Salve automático • Versão demo</div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
