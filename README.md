@@ -139,20 +139,3 @@ Open `index.html` in your browser.
 **Heric Rodrigues Peres**
 📍 Brazil
 
-🔗 GitHub: [https://github.com/HericBilu](https://github.com/HericBilu)
-
----
-
-💼 Why This Project Matters
-
-This project demonstrates:
-
-✅ Self-learning capability
-✅ Clean code organization
-✅ Strong logical thinking
-✅ Real-world business rule implementation
-✅ A complete, end-to-end functional application
-
----
-
-📌 *Project created for educational purposes and professional portfolio use.*
